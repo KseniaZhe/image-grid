@@ -23,6 +23,7 @@ body {
 img {
   float: left;
   width: 100%;
+  display: block;
 }
 
 img:nth-child(2),
@@ -37,7 +38,7 @@ img:nth-child(5) {
   }
 
   img:first-child {
-    width: 100%
+    width: 100%;
   }
 
   img:nth-child(2),
@@ -50,7 +51,7 @@ img:nth-child(5) {
 @media only screen and (min-width: 38em) {
 
   img {
-    width: 33.33%;
+    width: 33.3333%;
   }
 
   img:nth-child(5) {
@@ -61,7 +62,7 @@ img:nth-child(5) {
 @media only screen and (min-width: 60em) {
 
   img:first-child {
-    width: 66.66%;
+    width: 66.6666%;
   }
 
   img:nth-child(5) {
